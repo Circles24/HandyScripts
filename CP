@@ -1,0 +1,33 @@
+#!/bin/bash
+
+SERVICE="sublime_text"
+
+if pgrep -x "$SERVICE" >/dev/null
+then
+
+   echo;echo;echo " ...... COMPILING THE PROGRAM ...... " ;echo ; echo
+    
+   if  g++ /home/chromium/compy/compy.cpp  > /dev/null 2>&1
+   then
+	
+	echo " ...... COMPILATOIN SUCESSFUL ...... "; echo ;echo
+
+	echo " ......  RUNNING THE PROGRAM  ...... " ; echo ;echo
+	
+	./a.out
+
+	rm a.out
+
+    else
+
+	echo " ...... COMPILATION FAILED ...... " ; echo ; echo
+
+    fi
+
+else
+    
+	echo /home/chromium/compy/temp.cpp > /home/chromium/compy/compy.cpp
+
+	subl /home/chromium/compy/compy.cpp	
+
+fi
