@@ -1,0 +1,14 @@
+abs=$(pwd)
+
+cd /home/chromium/sublime_text_3
+
+if [ "$*" == "" ]; then
+    
+	./sublime_text
+else 
+
+	path=$abs/$1
+
+	./sublime_text $path
+
+fi
