@@ -2,13 +2,21 @@ abs=$(pwd)
 
 cd /home/chromium/sublime_text_3
 
-if [ "$*" == "" ]; then
+if [ "$1" == "" ]; then
     
 	./sublime_text
 else 
 
-	path=$abs/$1
+	if [[ "$1" = /* ]]; then
 
-	./sublime_text $path
+		./sublime_text $1
+   
+	else
+	
+		path=$abs/$1
+
+		./sublime_text $path
+
+	fi
 
 fi
