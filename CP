@@ -1,5 +1,3 @@
-#!/bin/bash
-
 SERVICE="sublime_text"
 
 if pgrep -x "$SERVICE" >/dev/null
@@ -26,7 +24,7 @@ then
 
 else
     
-	echo /home/chromium/compy/temp.cpp > /home/chromium/compy/compy.cpp
+	cat /home/chromium/compy/temp.cpp > /home/chromium/compy/compy.cpp
 
 	subl /home/chromium/compy/compy.cpp	
 
