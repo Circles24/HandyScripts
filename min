@@ -1,0 +1,8 @@
+
+sudo apt-get install xdotool
+
+alias min='xdotool windowminimize $(xdotool getactivewindow)'
+
+sudo echo "alias min='xdotool windowminimize \$(xdotool getactivewindow)'" >> /home/chromium/.bashrc
+
+. ~/.bashrc
