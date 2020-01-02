@@ -1,0 +1,29 @@
+#!/bin/bash
+
+sudo apt-get update 
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt autoremove -y
+
+sudo apt-get install openjdk-11-jdk
+sudo apt-get install g++
+sudo apt-get install python3
+
+sudo apt-get install code
+sudo apt-get install sublime-text
+
+sudo apt-get install firefox
+sudo apt-get install telegram-desktop
+sudo apt-get install gnome-tweaks
+sudo apt-get install vlc
+
+sudo apt-get install guake
+
+git clone https://github.com/Circles24/HandyScripts.git
+
+cd HandyScripts
+chmod +x CP
+sudo mv CP /usr/bin/CP
+
+
+
