@@ -5,19 +5,19 @@ sudo apt upgrade -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
-sudo apt-get install openjdk-11-jdk
-sudo apt-get install g++
-sudo apt-get install python3
+sudo apt-get install openjdk-11-jdk -y
+sudo apt-get install g++ -y
+sudo apt-get install python3 -y
 
-sudo apt-get install code
-sudo apt-get install sublime-text
+sudo apt-get install code -y
+sudo snap install sublime-text -y
 
-sudo apt-get install firefox
-sudo apt-get install telegram-desktop
-sudo apt-get install gnome-tweaks
-sudo apt-get install vlc
+sudo apt-get install firefox -y
+sudo apt-get install telegram-desktop -y
+sudo apt-get install gnome-tweaks -y
+sudo apt-get install vlc -y
 
-sudo apt-get install guake
+sudo apt-get install guake -y
 
 git clone https://github.com/Circles24/HandyScripts.git
 
