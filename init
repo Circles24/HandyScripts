@@ -19,11 +19,19 @@ sudo apt-get install vlc -y
 
 sudo apt-get install guake -y
 
+cd
 git clone https://github.com/Circles24/HandyScripts.git
 
 cd HandyScripts
 chmod +x CP
 sudo mv CP /usr/bin/CP
+
+cd
+git clone https://github.com/Circles24/CompetitiveProgramming.git
+mkdir compy
+cat CompetitiveProgramming > compy/temp.cpp
+touch compy/compy.cpp
+
 
 
 
