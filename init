@@ -9,8 +9,8 @@ sudo apt-get install openjdk-11-jdk -y
 sudo apt-get install g++ -y
 sudo apt-get install python3 -y
 
-sudo apt-get install code -y
-sudo snap install sublime-text -y
+sudo snap install code --classic
+sudo snap install sublime-text --classic
 
 sudo apt-get install firefox -y
 sudo apt-get install telegram-desktop -y
@@ -18,6 +18,14 @@ sudo apt-get install gnome-tweaks -y
 sudo apt-get install vlc -y
 
 sudo apt-get install guake -y
+
+sudo apt-get install mongodb -y
+sudo apt-get install mariadb-server -y
+
+sudo snap install postman
+
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 cd
 git clone https://github.com/Circles24/HandyScripts.git
