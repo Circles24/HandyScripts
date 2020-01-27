@@ -12,7 +12,7 @@ then
 
 	echo " ......  RUNNING THE PROGRAM  ...... " ; echo ;echo
 	
-	./a.out
+	timeout 20 ./a.out
 
 	rm a.out
 
