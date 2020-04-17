@@ -40,6 +40,9 @@ mkdir compy
 cat CompetitiveProgramming > compy/temp.cpp
 touch compy/compy.cpp
 
+sudo apt-get install maven
+sudo apt-get install gradle
+
 
 
 
